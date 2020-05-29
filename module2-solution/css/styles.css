@@ -5,26 +5,62 @@
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+  font-family: Helvetica;
   text-align: center;
 }
 
 #chicken_box{
-
+	border: 1px solid black;
+	margin: 15px;
+	background-color: rgb(128, 122, 122);
 }
 #beef_box{
-
+	border: 1px solid black;
+	margin: 15px;
+	background-color: rgb(128, 122, 122);
 }
 #sushi_box{
-
+	border: 1px solid black;
+	margin: 15px;
+	background-color: rgb(128, 122, 122);
 }
-#chicken_title{
 
+#chicken_title{
+	color: white;
+	background-color: pink;
+	font-family: Arial;
+
+	text-align: center;
+	float: right;	
+	width:  30%;
+	height: 25px;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
 }
 #beef_title{
+	color: white;
+	background-color: red;
+  	font-family: Arial;
 
+	text-align: center;
+	float: right;	
+	width:  30%;
+	height: 25px;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
 }
 #sushi_title{
+	color: black;
+	background-color: rgb(241,247,162);
+	font-family: Arial;
+
+	text-align: center;
+	float: right;	
+	width:  30%;
+	height: 25px;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
 
 }
 .paragraph_content{
@@ -38,9 +74,10 @@ h1 {
 }
 
 /********** Desktop--Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
+
   }
   .col-lg-1 {
     width: 8.33%;
@@ -81,9 +118,10 @@ h1 {
 }
 
 /********** Tablet--Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+
   }
   .col-md-1 {
     width: 8.33%;
@@ -124,7 +162,7 @@ h1 {
 }
 
 /********** Mobile--Small devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 767px) {
   .col-ms-1, .col-ms-2, .col-ms-3, .col-ms-4, .col-ms-5, .col-ms-6, .col-ms-7, .col-ms-8, .col-ms-9, .col-ms-10, .col-ms-11, .col-ms-12 {
     float: left;
   }
